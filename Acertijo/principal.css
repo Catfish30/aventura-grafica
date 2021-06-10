@@ -1,4 +1,54 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   background-color: hsl(225, 21%, 30%);
+   
+}
 
 h1{
-    color:red;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    position: relative;
+}
+.imagen{
+    width: 300px;
+    margin: 0 auto;
+}
+img{
+    width: 300px;
+    border-radius: 50%;
+}
+.texto{
+    font-family: 'Poiret One', cursive;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+li{
+    font-family: 'Poiret One', cursive;
+    color: white;
+    list-style: none;
+    text-align: center;
+    line-height: 30px;
+}
+a{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-decoration: none;
+    
+}
+main>p{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    padding: 40px;
+}
+.back{
+    color: white;
+    font-family: 'Poiret One', cursive;
+    padding: 40px;
 }
